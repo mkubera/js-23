@@ -79,13 +79,13 @@ const venuesNames = data.venues.map((venue) => {
   return venue.name;
 });
 
-console.log(venuesNames);
+// console.log(venuesNames);
 
 const frenchVenues = data.venues.filter((venue) => {
   return venue.country === "France";
   // return venue.id > 2;
 });
-console.log(frenchVenues);
+// console.log(frenchVenues);
 
 const sumOfNums = [1, 2, 3, 4, 5].reduce((acc, number) => acc + number, 0);
 
@@ -94,8 +94,8 @@ const venuesCountries = data.venues.reduce(
   []
 );
 
-console.log(sumOfNums);
-console.log(venuesCountries);
+// console.log(sumOfNums);
+// console.log(venuesCountries);
 
 const venuesDOM = document.querySelector("#venues");
 
